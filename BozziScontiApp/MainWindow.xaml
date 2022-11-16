@@ -1,0 +1,15 @@
+﻿<Window x:Class="BozziScontiApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BozziScontiApp"
+        mc:Ignorable="d"
+        Title="Calcola sconto" Height="450" Width="400" FontSize="36">
+    <StackPanel>
+        <Label Content="Inserisci l'importo:" />
+        <TextBox x:Name="TxtImporto" />
+        <Button x:Name="BtnCalcola" Content="Calcola" Click="BtnCalcola_Click" />
+        <Label Content=" " x:Name="LblRisultato" />
+    </StackPanel>
+</Window>
